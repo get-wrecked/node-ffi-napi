@@ -1,6 +1,6 @@
 {
   "name": "@lwahonen/ffi-napi",
-  "version": "4.0.13",
+  "version": "4.0.14",
   "license": "MIT",
   "author": "LWAhonen@github",
   "contributors": [
@@ -28,7 +28,7 @@
   "main": "./lib/ffi",
   "dependencies": {
     "debug": "^4.1.1",
-    "get-uv-event-loop-napi-h": "^1.0.5",
+    "get-uv-event-loop-napi-h": "github:get-wrecked/get-uv-event-loop-napi-h#2d53ba7f6b056a8e8fe0cb3277ea3158e86e4e7b",
     "node-addon-api": "^3.2.1",
     "@lwahonen/ref-napi": "^4.0.8",
     "ref-struct-di": "^1.1.0",
